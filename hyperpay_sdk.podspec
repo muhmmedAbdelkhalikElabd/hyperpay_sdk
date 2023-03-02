@@ -3,7 +3,7 @@
 # Run `pod lib lint payment.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'hyperpay_plugin'
+  s.name             = 'hyperpay_sdk'
   s.version          = '4.9.0'
   s.summary          = 'A new Flutter project.'
   s.description      = 'DESC A new Flutter project.DESC'
