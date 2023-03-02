@@ -6,9 +6,7 @@ Pod::Spec.new do |s|
   s.name             = 'hyperpay_plugin'
   s.version          = '4.9.0'
   s.summary          = 'A new Flutter project.'
-  s.description      = <<-DESC
-A new Flutter project.
-                       DESC
+  s.description      = 'DESC A new Flutter project.DESC'
   s.homepage         = 'https://pub.dev/packages/hyperpay_plugin'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'ahmedelkhyary' => 'mcli3064@gmail.com' }
@@ -19,4 +17,4 @@ A new Flutter project.
   s.vendored_frameworks = 'OPPWAMobile.xcframework', 'ipworks3ds_sdk.xcframework'
   s.static_framework = true
 
- end
+end
