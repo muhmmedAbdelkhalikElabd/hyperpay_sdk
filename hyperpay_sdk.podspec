@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A new Flutter project.'
   s.description      = 'DESC A new Flutter project.DESC'
   s.homepage         = 'https://pub.dev/packages/hyperpay_plugin'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => 'LICENSE' }
   s.author           = { 'ahmedelkhyary' => 'mcli3064@gmail.com' }
   s.source           = { :path => '.' }
 
