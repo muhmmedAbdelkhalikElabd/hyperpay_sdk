@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'hyperpay_sdk'
-  s.version          = '4.9.0'
+  s.version          = '4.12.0'
   s.summary          = 'A new Flutter project.'
   s.description      = 'DESC A new Flutter project.DESC'
   s.homepage         = 'https://pub.dev/packages/hyperpay_plugin'
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'OPPWAMobile.xcframework', 'ipworks3ds_sdk.xcframework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework OPPWAMobile -framework ipworks3ds_sdk ' }
   s.vendored_frameworks = 'OPPWAMobile.xcframework', 'ipworks3ds_sdk.xcframework'
-  s.static_framework = true
+  s.static_framework = true 
 
 end

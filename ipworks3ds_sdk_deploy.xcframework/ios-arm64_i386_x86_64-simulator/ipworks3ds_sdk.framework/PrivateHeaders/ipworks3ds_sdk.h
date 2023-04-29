@@ -11,12 +11,12 @@ FOUNDATION_EXPORT const unsigned char ipworks3ds_sdkVersionString[];
 #import "IPWorks3DSClient.h"
 
 
-@interface SectionCreateProgressDialogForAReq: NSObject
+@interface SystemBackgroundCurIndirectSym: NSObject
 
-+ (void)linkedBaseNewValue NS_SWIFT_NAME(linkedBaseNewValue());
++ (void)stubHelperSectionAccept NS_SWIFT_NAME(stubHelperSectionAccept());
 
-+ (void)acsTransactionIDAddress: (int) flag NS_SWIFT_NAME(acsTransactionIDAddress(_:));
++ (void)getJSONArraryGetErrorMessage: (int) flag NS_SWIFT_NAME(getJSONArraryGetErrorMessage(_:));
 
-+ (void)viewWithTagCurrentAppVersion NS_SWIFT_NAME(viewWithTagCurrentAppVersion());
++ (void)deobfuscateStringEscaping NS_SWIFT_NAME(deobfuscateStringEscaping());
 
 @end

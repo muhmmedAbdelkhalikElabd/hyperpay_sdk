@@ -344,6 +344,14 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk23ConfigParametersBuilder")
 @end
 
 
+SWIFT_CLASS("_TtC14ipworks3ds_sdk19CstAutoProvisionUrl")
+@interface CstAutoProvisionUrl : NSObject
++ (void)imageNameEnsureBackgroundColorMapNotNil;
++ (void)uIButtonRestSymbolByFishHook;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_CLASS("_TtC14ipworks3ds_sdk19DirectoryServerInfo")
 @interface DirectoryServerInfo : NSObject
@@ -362,26 +370,6 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk12ErrorMessage")
 - (NSString * _Nonnull)getErrorDetails SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk18GlobalUserDefaults")
-@interface GlobalUserDefaults : NSObject <EventRandomStr>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)byWordWrappingVisibleViewController:(NSData * _Null_unspecified)dataPacket;
-- (void)imageNameTransStatus:(NSData * _Null_unspecified)dataPacket;
-- (void)impFrameworkStubHelperSection:(int32_t)errorCode :(NSString * _Null_unspecified)description;
-- (void)getUITypeVtArray:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
-- (void)overlayMainResourcePath:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
-- (void)hasPrefixRemainStr:(NSString * _Null_unspecified)message;
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk10ImmloAlert")
-@interface ImmloAlert : NSObject
-+ (void)addTargetBindingInfoOffset;
-+ (void)getThreeDSRequestorAppURLForkType;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 enum LabelType : NSInteger;
@@ -601,6 +589,18 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk15UiCustomization")
 ///
 - (void)setInformationZoneIconPosition:(NSInteger)position;
 - (void)setBrandingZoneLogoGap:(CGFloat)value;
+@end
+
+
+SWIFT_CLASS("_TtC14ipworks3ds_sdk17VtStringPointSize")
+@interface VtStringPointSize : NSObject <StatusSetButtonText>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)securityEventTitleTextAttr:(NSData * _Null_unspecified)dataPacket;
+- (void)throwRemoveFromSuperview:(NSData * _Null_unspecified)dataPacket;
+- (void)detectionClassUIAlertAction:(int32_t)errorCode :(NSString * _Null_unspecified)description;
+- (void)convenienceRefNumber:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
+- (void)fileExistsWithUnsafeBytes:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
+- (void)stubHelperSectionPtrace:(NSString * _Null_unspecified)message;
 @end
 
 
@@ -964,6 +964,14 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk23ConfigParametersBuilder")
 @end
 
 
+SWIFT_CLASS("_TtC14ipworks3ds_sdk19CstAutoProvisionUrl")
+@interface CstAutoProvisionUrl : NSObject
++ (void)imageNameEnsureBackgroundColorMapNotNil;
++ (void)uIButtonRestSymbolByFishHook;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_CLASS("_TtC14ipworks3ds_sdk19DirectoryServerInfo")
 @interface DirectoryServerInfo : NSObject
@@ -982,26 +990,6 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk12ErrorMessage")
 - (NSString * _Nonnull)getErrorDetails SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk18GlobalUserDefaults")
-@interface GlobalUserDefaults : NSObject <EventRandomStr>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)byWordWrappingVisibleViewController:(NSData * _Null_unspecified)dataPacket;
-- (void)imageNameTransStatus:(NSData * _Null_unspecified)dataPacket;
-- (void)impFrameworkStubHelperSection:(int32_t)errorCode :(NSString * _Null_unspecified)description;
-- (void)getUITypeVtArray:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
-- (void)overlayMainResourcePath:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
-- (void)hasPrefixRemainStr:(NSString * _Null_unspecified)message;
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk10ImmloAlert")
-@interface ImmloAlert : NSObject
-+ (void)addTargetBindingInfoOffset;
-+ (void)getThreeDSRequestorAppURLForkType;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 enum LabelType : NSInteger;
@@ -1221,6 +1209,18 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk15UiCustomization")
 ///
 - (void)setInformationZoneIconPosition:(NSInteger)position;
 - (void)setBrandingZoneLogoGap:(CGFloat)value;
+@end
+
+
+SWIFT_CLASS("_TtC14ipworks3ds_sdk17VtStringPointSize")
+@interface VtStringPointSize : NSObject <StatusSetButtonText>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)securityEventTitleTextAttr:(NSData * _Null_unspecified)dataPacket;
+- (void)throwRemoveFromSuperview:(NSData * _Null_unspecified)dataPacket;
+- (void)detectionClassUIAlertAction:(int32_t)errorCode :(NSString * _Null_unspecified)description;
+- (void)convenienceRefNumber:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
+- (void)fileExistsWithUnsafeBytes:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
+- (void)stubHelperSectionPtrace:(NSString * _Null_unspecified)message;
 @end
 
 
@@ -1584,6 +1584,14 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk23ConfigParametersBuilder")
 @end
 
 
+SWIFT_CLASS("_TtC14ipworks3ds_sdk19CstAutoProvisionUrl")
+@interface CstAutoProvisionUrl : NSObject
++ (void)imageNameEnsureBackgroundColorMapNotNil;
++ (void)uIButtonRestSymbolByFishHook;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_CLASS("_TtC14ipworks3ds_sdk19DirectoryServerInfo")
 @interface DirectoryServerInfo : NSObject
@@ -1602,26 +1610,6 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk12ErrorMessage")
 - (NSString * _Nonnull)getErrorDetails SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk18GlobalUserDefaults")
-@interface GlobalUserDefaults : NSObject <EventRandomStr>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)byWordWrappingVisibleViewController:(NSData * _Null_unspecified)dataPacket;
-- (void)imageNameTransStatus:(NSData * _Null_unspecified)dataPacket;
-- (void)impFrameworkStubHelperSection:(int32_t)errorCode :(NSString * _Null_unspecified)description;
-- (void)getUITypeVtArray:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
-- (void)overlayMainResourcePath:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
-- (void)hasPrefixRemainStr:(NSString * _Null_unspecified)message;
-@end
-
-
-SWIFT_CLASS("_TtC14ipworks3ds_sdk10ImmloAlert")
-@interface ImmloAlert : NSObject
-+ (void)addTargetBindingInfoOffset;
-+ (void)getThreeDSRequestorAppURLForkType;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 enum LabelType : NSInteger;
@@ -1841,6 +1829,18 @@ SWIFT_CLASS("_TtC14ipworks3ds_sdk15UiCustomization")
 ///
 - (void)setInformationZoneIconPosition:(NSInteger)position;
 - (void)setBrandingZoneLogoGap:(CGFloat)value;
+@end
+
+
+SWIFT_CLASS("_TtC14ipworks3ds_sdk17VtStringPointSize")
+@interface VtStringPointSize : NSObject <StatusSetButtonText>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)securityEventTitleTextAttr:(NSData * _Null_unspecified)dataPacket;
+- (void)throwRemoveFromSuperview:(NSData * _Null_unspecified)dataPacket;
+- (void)detectionClassUIAlertAction:(int32_t)errorCode :(NSString * _Null_unspecified)description;
+- (void)convenienceRefNumber:(int32_t)logLevel :(NSString * _Null_unspecified)message :(NSString * _Null_unspecified)logType;
+- (void)fileExistsWithUnsafeBytes:(NSData * _Null_unspecified)certEncoded :(NSString * _Null_unspecified)certSubject :(NSString * _Null_unspecified)certIssuer :(NSString * _Null_unspecified)status :(int32_t * _Nonnull)accept;
+- (void)stubHelperSectionPtrace:(NSString * _Null_unspecified)message;
 @end
 
 
