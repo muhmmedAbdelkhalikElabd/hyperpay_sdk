@@ -34,7 +34,7 @@
 		</data>
 		<key>OPPCardDetailsViewController.nib</key>
 		<data>
-		f8Pm6+k5jt+H09NR6SQtPCQvLJU=
+		hOqu4UYpDVcTBnkcRrj72w/7jrE=
 		</data>
 		<key>OPPCardScanningViewController.nib</key>
 		<data>
@@ -358,7 +358,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oC+sKEoQ1ik2CJiEg/VPOqxL1vI=
+			P4Qg3ejjqLhRCnO7pa5c+4N5xlM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -890,7 +890,7 @@
 		</data>
 		<key>version.plist</key>
 		<data>
-		3dbSdymNKjGZMpxaeLrhRRKB3Zo=
+		/Lule8k8nQU5AbOoXlS8hhpBcc0=
 		</data>
 		<key>visa.png</key>
 		<data>
@@ -1033,11 +1033,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f8Pm6+k5jt+H09NR6SQtPCQvLJU=
+			hOqu4UYpDVcTBnkcRrj72w/7jrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+YpWuM00dVtXe/6qmE/PrRA3r19nAbpg6kBBpq2WzUg=
+			LqmPtM20I9dPhDBZvKkamJLnhStAVUJhN/kQZAhHbFM=
 			</data>
 		</dict>
 		<key>OPPCardScanningViewController.nib</key>
@@ -1848,11 +1848,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oC+sKEoQ1ik2CJiEg/VPOqxL1vI=
+			P4Qg3ejjqLhRCnO7pa5c+4N5xlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			K1Nfm/Vtq8dKm1iyp86VwgQa3sqUbqiKdcNE0a1wQlg=
+			nGwTWTNk2P+ftk9dcLBB4K3+1Wqoql2oQcRXr37TbVE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3011,11 +3011,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3dbSdymNKjGZMpxaeLrhRRKB3Zo=
+			/Lule8k8nQU5AbOoXlS8hhpBcc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ma/LrAVHnMBKbUEKZUqTDBcwaDmRjHZqQEFysCIpgY4=
+			9gVfR9o6jk1YfFbu2KQ6PN/E+Y74iY6xiLXFybm49F4=
 			</data>
 		</dict>
 		<key>visa.png</key>

@@ -26,14 +26,6 @@ typedef NS_ENUM(NSInteger, OPPProviderMode) {
     OPPProviderModeLive
 };
 
-/// An enumeration for server endpoint domain.
-typedef NS_ENUM(NSInteger, OPPProviderDomain) {
-    /// oppwa.com for Live server mode, test.oppwa.com for Sandbox mode.
-    OPPProviderDomainDefault,
-    /// eu-prod.oppwa.com for Live server mode, eu-test.oppwa.com for Sandbox mode.
-    OPPProviderDomainEU
-};
-
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -71,11 +63,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) OPPProviderMode mode;
 
 /**
- Determines Server endpoint domain.
-*/
-@property (nonatomic) OPPProviderDomain domain;
-
-/**
  Delegate for processing the 3-D Secure transaction.
  */
 @property (nonatomic, weak, nullable) id<OPPThreeDSEventListener> threeDSEventListener;
@@ -88,15 +75,6 @@ NS_ASSUME_NONNULL_BEGIN
  @return An `OPPPaymentProvider` which can be used to process transactions.
 */
 + (instancetype)paymentProviderWithMode:(OPPProviderMode)mode;
-
-/**
- Factory method to obtain a new provider.
- @param mode Determines the type of Server to use. Transactions to the LIVE server come with fees attached.
- @param domain Determines Server endpoint domain.
- @return An `OPPPaymentProvider` which can be used to process transactions.
-*/
-+ (instancetype)paymentProviderWithMode:(OPPProviderMode)mode andDomain:(OPPProviderDomain)domain;
-
 
 /// @name Process transaction
 
@@ -200,23 +178,6 @@ NS_ASSUME_NONNULL_BEGIN
  @return `NO` if neither Touch ID/Face ID nor passcode are set, otherwise `YES`.
  */
 + (BOOL)isDeviceAuthenticationAvailable;
-
-
-/// @name Deprecated
-
-/**
- Requests list of payment brands for provided card bin.
- Request is performed asynchronously using an NSURLConnection.
- 
- @note If you are using core SDK, please request checkout info by calling `-[OPPPaymentProvider requestCheckoutInfoWithCheckoutID:completionHandler:]` before requestPaymentBrandsForBin call. Checkout info call is essential part of the flow, error will be thrown otherwise.
- @param bin First 6 or more digits of the card number.
- @param completionHandler The completion block will be invoked once the response in received.
- @warning **Deprecated:** Use `-requestBinInfoWithCheckoutID:bin:completionHandler:` instead.
- */
-- (void)requestPaymentBrandsForBin:(NSString *)bin
-                        checkoutID:(NSString *)checkoutID
-                 completionHandler:(void (^)(NSArray <NSString *> * _Nullable paymentBrands,
-                                             NSError * _Nullable error))completionHandler DEPRECATED_MSG_ATTRIBUTE("- Use -requestBinInfoWithCheckoutID:bin:completionHandler: instead.");
 
 @end
 NS_ASSUME_NONNULL_END
