@@ -55,7 +55,9 @@ typedef NS_ENUM(NSInteger, OPPErrorCode) {
     OPPErrorCodeBankAccountNumberInvalid = 1136,
     
     /// The Apple Pay payment token data is invalid. To perform this type of transaction a valid payment token data is needed.
-    OPPErrorCodeApplePayTokenDataInvalid = 1150,
+    OPPErrorCodeApplePayTokenDataInvalid = 1150,    
+    /// The Apple Pay authorization rejected by merchant.
+    OPPErrorCodeApplePayAuthorizationDeclined = 1151,
     
     /// The phone number is not valid.
     OPPErrorCodePhoneNumberInvalid = 1160,
@@ -119,7 +121,10 @@ typedef NS_ENUM(NSInteger, OPPErrorCode) {
     OPPErrorCodeCardScanningGeneralError = 7000,
     
     /// Copy and Pay web loading error.
-    OPPErrorCodeCopyAndPayGeneralError = 8000
+    OPPErrorCodeCopyAndPayGeneralError = 8000,
+    
+    /// Afterpay Payments specific error.
+    OPPErrorCodeAfterPay = 5004
 };
 
 /**

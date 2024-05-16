@@ -7,6 +7,7 @@
 "VIEW_CONTROLLER_TITLE_PAYMENT_METHOD_SELECTION" = "Seleccionar o método de pagamento";
 "VIEW_CONTROLLER_TITLE_PAYMENT_DETAILS" = "Detalles do pagamento";
 "VIEW_CONTROLLER_TITLE_PROCESSING" = "Procesando";
+"VIEW_CONTROLLER_TITLE_ADDRESS" = "enderezo de facturación";
 
 /// Labels
 "LABEL_TOTAL_AMOUNT" = "Importe total";
@@ -66,6 +67,13 @@
 "FIELD_PLACEHOLDER_EMAIL" = "Correo electrónico";
 "FIELD_PLACEHOLDER_NATIONAL_IDENTIFIER" = "Identificador nacional";
 "FIELD_PLACEHOLDER_DATE_OF_BIRTH" = "DD.MM.AAAA";
+"FIELD_PLACEHOLDER_OPTIONAL" = "(Opcional)";
+"FIELD_PLACEHOLDER_COUNTRY" = "País";
+"FIELD_PLACEHOLDER_STATE" = "Estado";
+"FIELD_PLACEHOLDER_CITY" = "Cidade";
+"FIELD_PLACEHOLDER_POSTCODE" = "CP/Código Postal";
+"FIELD_PLACEHOLDER_STREET1" = "Enderezo Liña 1";
+"FIELD_PLACEHOLDER_STREET2" = "Enderezo Liña 2";
 
 /// Text field errors
 "FIELD_ERROR_CARD_HOLDER_NAME_INVALID" = "O nome do titular da tarxeta non é válido";
@@ -82,6 +90,8 @@
 "FIELD_ERROR_MOBILE_PHONE_INVALID" = "Número móbil non válido";
 "FIELD_ERROR_NATIONAL_IDENTIFIER_INVALID" = "Identificador nacional non válido";
 "FIELD_ERROR_DATE_OF_BIRTH_INVALID" = "Data de nacemento non válida. DD.MM.AAAA esperado";
+"FIELD_ERROR_ADDRESS_INVALID" = "Fai clic aquí para ver o enderezo de facturación";
+"FIELD_ERROR_COUNTY_CODE_INVALID" = "O código de país non é válido";
 
 /// Payment method groups are displayed if tokens are received
 "PAYMENT_METHOD_GROUP_STORED" = "Métodos de pagamento almacenados";
@@ -90,3 +100,20 @@
 
 /// Payment method names
 "PAYMENT_METHOD_TYPE_DIRECTDEBIT_SEPA" = "Débito directo da SEPA";
+
+/// Copy and Pay WebView
+"FIELD_PLACEHOLDER_EXPIRY_DATE_WEB" = "Usa o formato MM/AA";
+"FIELD_PLACEHOLDER_CVV_WEB" = "Use un código de 3 ou 4 díxitos";
+"FIELD_ERROR_CARD_EXPIRY_DATE_INVALID_WEB" = "A data de caducidade da tarxeta non é válida, utiliza o formato MM/AA";
+"FIELD_ERROR_CARD_CVV_INVALID_WEB" = "O código de seguridade debe conter 3 ou 4 díxitos";
+
+/// Accessibility
+"ACCESSIBILITY_SCAN_CARD" = "Escanear unha tarxeta";
+"ACCESSIBILITY_CANCEL_CHECKOUT" = "Cancelar a compra";
+"ACCESSIBILITY_PAY_WITH_STORED_PAYMENT_METHOD" = "Pague co método de pago almacenado";
+"ACCESSIBILITY_PAY_WITH" = "Paga con";
+
+/// Card Scanning
+"ALERT_TITLE_CARD_SCANNING_FAILED" = "Fallou a dixitalización da tarxeta";
+"LABEL_CARD_SCAN_HOLD_HERE" = "Manteña aquí a tarxeta.\e escanearase automaticamente";
+"BUTTON_TITLE_OK" = "Ok";

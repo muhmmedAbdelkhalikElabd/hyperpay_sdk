@@ -12,9 +12,12 @@
 #import <Foundation/Foundation.h>
 #import <PassKit/PassKit.h>
 #import "OPPBillingAddress.h"
+#import "OPPViewController.h"
 @class OPPCheckoutTheme;
 @class OPPSecurityPolicy;
 @class OPPThreeDSConfig;
+@class OPPWpwlOptions;
+@class OPPMBWayConfig;
 
 /// An enumeration for the possible store payment details modes.
 typedef NS_ENUM(NSInteger, OPPCheckoutStorePaymentDetailsMode) {
@@ -86,7 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSArray<NSString *> *paymentBrands;
 
-/** 
+/**
  A constant that specifies the store payment details mode. Default is `OPPCheckoutStorePaymentDetailsModeNever`.
  */
 @property (nonatomic) OPPCheckoutStorePaymentDetailsMode storePaymentDetails;
@@ -112,7 +115,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, getter=isInstallmentEnabled) BOOL installmentEnabled;
 
 /**
- Set of security policies to confirm payment. 
+ Set of security policies to confirm payment.
  Increase security for tokens or specific payment methods with Touch ID/Face ID or passcode.
  */
 @property (nonatomic, copy, nullable) NSArray<OPPSecurityPolicy *> *securityPolicies;
@@ -203,6 +206,36 @@ NS_ASSUME_NONNULL_BEGIN
  A flag that enable/disable back button to be presented on the Payment Details. Default is 'YES'.
  */
 @property (nonatomic, getter=isBackButtonAvailable) BOOL backButtonAvailable;
+
+/**
+A flag that enable/disable card scan button to be presented on the Payment Details. Default is 'YES'.
+*/
+@property (nonatomic, getter=isCardScanningEnabled) BOOL cardScanButtonAvailable;
+
+/**
+ A flag that is used to set the Apple Pay Button Type. Default is 'PKPaymentButtonTypePlain'.
+ */
+@property (nonatomic) PKPaymentButtonType applePayType;
+
+/**
+A flag that Disable's Card expiry date validation. Default is 'No'.
+*/
+@property (nonatomic) BOOL disableCardExpiryDateValidation;
+
+/**
+ WPWL Java Script options for CopyAndPay integration.
+ */
+@property (nonatomic, copy) NSDictionary<NSString *, OPPWpwlOptions *> *wpwlOptions;
+
+/**
+ Property which holds MBWay brand specific configuration.
+ */
+@property (nonatomic, copy) OPPMBWayConfig *mbwayConfig;
+
+/**
+ Configure view controllers for UI Component integration.
+ */
+- (BOOL)customController:(OPPViewController)controllerType withUiController:(nonnull UIViewController *)controller;
 
 @end
 NS_ASSUME_NONNULL_END

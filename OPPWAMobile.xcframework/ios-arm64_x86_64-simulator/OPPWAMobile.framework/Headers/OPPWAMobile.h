@@ -32,6 +32,7 @@
 #import "OPPTokenPaymentParams.h"
 #import "OPPKlarnaInlinePaymentParams.h"
 #import "OPPYooKassaPaymentParams.h"
+#import "OPPAfterPayPaymentParams.h"
 #import "OPPYooKassaInfo.h"
 #import "OPPErrors.h"
 #import "OPPCheckoutInfo.h"
@@ -55,3 +56,5 @@
 
 #import "OPPThreeDSChallengeUiType.h"
 
+#import "OPPWpwlOptions.h"
+#import "OPPMBWayConfig.h"

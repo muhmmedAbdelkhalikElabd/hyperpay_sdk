@@ -53,15 +53,6 @@ NS_ASSUME_NONNULL_BEGIN
 /** Shows if ReD Shield Device Id collecting is enabled or disabled. */
 @property (nonatomic) BOOL collectRedShieldDeviceId;
 
-/** Payment brands for which 3-D Secure 2 is enabled. */
-@property (nonatomic, copy) NSArray<NSString *> *threeDS2Brands;
-
-/** 3-D Secure 2 integration flow. */
-@property (nonatomic, assign) OPPThreeDS2Flow threeDS2Flow;
-
-/** A flag that specifies if browser parameters should be collected for 3-D Secure 2. */
-@property (nonatomic, getter=isBrowserParamsRequired) BOOL browserParamsRequired;
-
 /** mSDK UI type. */
 @property (nonatomic, assign) OPPMsdkUiType msdkUiType;
 

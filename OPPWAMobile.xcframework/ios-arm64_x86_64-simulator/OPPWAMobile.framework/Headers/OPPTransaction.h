@@ -83,7 +83,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Dictionary for holding brand-specific parameters like:
- @see `OPPTransactionKlarnaInlineClientTokenKey`, `OPPTransactionKlarnaInlineClientCallbackUrlKey`, `OPPTransactionKlarnaInlineClientFailureCallbackUrlKey`, `OPPTransactionKlarnaInlineInitialTransactionIdKey`, `OPPTransactionAlipaySignedOrderInfoKey`.
+ @see `OPPTransactionKlarnaInlineClientTokenKey`, `OPPTransactionKlarnaInlineClientCallbackUrlKey`, `OPPTransactionKlarnaInlineClientFailureCallbackUrlKey`, `OPPTransactionKlarnaInlineInitialTransactionIdKey`
  */
 @property (nonatomic, readonly, nullable) NSDictionary<NSString *, NSString *> *brandSpecificInfo;
 
@@ -106,11 +106,6 @@ FOUNDATION_EXPORT NSString *const OPPTransactionKlarnaInlineClientFailureCallbac
 Constant for a key to get Klarna Payments initial transaction id from the transaction response.
 */
 FOUNDATION_EXPORT NSString *const OPPTransactionKlarnaInlineInitialTransactionIdKey;
-
-/**
-Constant for a key to get Alipay seller's order information which should be forwarded to Alipay native SDK.
-*/
-FOUNDATION_EXPORT NSString *const OPPTransactionAlipaySignedOrderInfoKey;
 
 /**
 Constant for a key to get Bancontact app scheme URL to redirect to the Bancontact app.

@@ -7,6 +7,7 @@
 "VIEW_CONTROLLER_TITLE_PAYMENT_METHOD_SELECTION" = "Fizetési mód kiválasztása";
 "VIEW_CONTROLLER_TITLE_PAYMENT_DETAILS" = "Fizetés részletei";
 "VIEW_CONTROLLER_TITLE_PROCESSING" = "Feldolgozás";
+"VIEW_CONTROLLER_TITLE_ADDRESS" = "számlázási cím";
 
 /// Labels
 "LABEL_TOTAL_AMOUNT" = "Teljes összeg";
@@ -72,6 +73,13 @@
 "FIELD_PLACEHOLDER_ACCOUNT_NUMBER" = "Számlaszám";
 "FIELD_PLACEHOLDER_ACCOUNT_VERIFICATION" = "Fiókellenőrzés";
 "FIELD_PLACEHOLDER_DATE_OF_BIRTH" = "NN.HH.YYYY";
+"FIELD_PLACEHOLDER_OPTIONAL" = "(opcionális)";
+"FIELD_PLACEHOLDER_COUNTRY" = "Ország";
+"FIELD_PLACEHOLDER_STATE" = "Állapot";
+"FIELD_PLACEHOLDER_CITY" = "Város";
+"FIELD_PLACEHOLDER_POSTCODE" = "Irányítószám";
+"FIELD_PLACEHOLDER_STREET1" = "Cím 1. sor";
+"FIELD_PLACEHOLDER_STREET2" = "Cím 2. sor";
 
 /// Text field errors
 "FIELD_ERROR_CARD_HOLDER_NAME_INVALID" = "A bankkártya tulajdonosának neve érvénytelen";
@@ -91,6 +99,8 @@
 "FIELD_ERROR_ACCOUNT_EXPIRY_DATE_INVALID" = "A lejárati dátum érvénytelen, használd a HH/ÉÉ vagy HH/ÉÉÉÉ formátumot";
 "FIELD_ERROR_ACCOUNT_EXPIRED" = "A fiók lejárt";
 "FIELD_ERROR_DATE_OF_BIRTH_INVALID" = "Érvénytelen születési dátum. DD.MM.YYYY várható";
+"FIELD_ERROR_ADDRESS_INVALID" = "Kattintson ide a számlázási címért";
+"FIELD_ERROR_COUNTY_CODE_INVALID" = "Érvénytelen országkód";
 
 /// Payment method groups are displayed if tokens are received
 "PAYMENT_METHOD_GROUP_STORED" = "Mentett fizetési módok";
@@ -100,3 +110,20 @@
 /// Payment method names
 "PAYMENT_METHOD_TYPE_DIRECTDEBIT_SEPA" = "SEPA megbízás ";
 "PAYMENT_METHOD_TYPE_SOFORTUEBERWEISUNG" = "SOFORT Banking";
+
+/// Copy and Pay WebView
+"FIELD_PLACEHOLDER_EXPIRY_DATE_WEB" = "Használjon HH/ÉÉ formátumot";
+"FIELD_PLACEHOLDER_CVV_WEB" = "Használjon 3 vagy 4 számjegyű kódot";
+"FIELD_ERROR_CARD_EXPIRY_DATE_INVALID_WEB" = "A kártya lejárati dátuma nem érvényes, használjon HH/ÉÉ formátumot";
+"FIELD_ERROR_CARD_CVV_INVALID_WEB" = "A biztonsági kódnak 3 vagy 4 számjegyből kell állnia";
+
+/// Accessibility
+"ACCESSIBILITY_SCAN_CARD" = "Olvass be egy kártyát";
+"ACCESSIBILITY_CANCEL_CHECKOUT" = "A fizetés megszakítása";
+"ACCESSIBILITY_PAY_WITH_STORED_PAYMENT_METHOD" = "Fizessen a tárolt fizetési móddal:";
+"ACCESSIBILITY_PAY_WITH" = "Fizessen ezzel";
+
+/// Card Scanning
+"ALERT_TITLE_CARD_SCANNING_FAILED" = "A kártya beolvasása nem sikerült";
+"LABEL_CARD_SCAN_HOLD_HERE" = "Tartsa itt a kártyát.\és automatikusan beolvassa";
+"BUTTON_TITLE_OK" = "rendben";

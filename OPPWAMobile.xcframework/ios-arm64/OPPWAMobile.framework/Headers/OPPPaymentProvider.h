@@ -136,6 +136,16 @@ NS_ASSUME_NONNULL_BEGIN
                    completionHandler:(void (^)(OPPBinInfo * _Nullable binInfo,
                                                NSError * _Nullable error))completionHandler;
 
+/**
+ Requests a list of iDeal banks.
+ 
+ @param checkoutID The checkout ID of a transaction.
+ @param completionHandler The completion block which will be invoked once the response is received. On success, you will receive a list of banks in array, and on failure an error is received.
+ */
+- (void)requestIdealBanksWithCheckoutID:(nonnull NSString *)checkoutID
+                      completionHandler:(void (^)(NSArray <NSDictionary *> * _Nullable banks,
+                                                  NSError * _Nullable error))completionHandler;
+
 /// @name 3D Secure
 /**
  The ipworks3ds SDK performs security checks in order to provide a  list of `Warning` objects. These can be checked by the app to determine whether or not to proceed with the checkout process.

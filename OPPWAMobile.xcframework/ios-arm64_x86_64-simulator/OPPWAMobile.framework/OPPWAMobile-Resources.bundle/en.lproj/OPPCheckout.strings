@@ -100,6 +100,7 @@
 "FIELD_ERROR_ACCOUNT_EXPIRED" = "Account is expired";
 "FIELD_ERROR_ADDRESS_INVALID" = "Click here for Billing Address";
 "FIELD_ERROR_DATE_OF_BIRTH_INVALID" = "Invalid birth date. DD.MM.YYYY expected";
+"FIELD_ERROR_COUNTY_CODE_INVALID" = "Invalid country code";
 
 /// Payment method groups are displayed if tokens are received
 "PAYMENT_METHOD_GROUP_STORED" = "Stored Payment Methods";
@@ -123,12 +124,12 @@
 "PAYMENT_METHOD_TYPE_UNIONPAY_SMS" = "UnionPay SMS";
 "PAYMENT_METHOD_TYPE_JCB" = "JCB";
 "PAYMENT_METHOD_TYPE_APPLEPAY" = "Apple Pay";
+"PAYMENT_METHOD_TYPE_APPLEPAYTKN" = "Apple Pay";
 "PAYMENT_METHOD_TYPE_SOFORTUEBERWEISUNG" = "SOFORT BANKING";
 "PAYMENT_METHOD_TYPE_DIRECTDEBIT_SEPA" = "SEPA Direct Debit";
 "PAYMENT_METHOD_TYPE_IDEAL" = "IDEAL";
 "PAYMENT_METHOD_TYPE_PAYPAL" = "PayPal";
 "PAYMENT_METHOD_TYPE_BOLETO" = "BOLETO Bancário";
-"PAYMENT_METHOD_TYPE_ALIPAY" = "Alipay";
 "PAYMENT_METHOD_TYPE_CHINAUNIONPAY" = "UnionPay Online Payment";
 "PAYMENT_METHOD_TYPE_PAYSAFECARD" = "Paysafecard";
 "PAYMENT_METHOD_TYPE_YANDEX" = "Yandex";
@@ -158,3 +159,14 @@
 "PAYMENT_METHOD_TYPE_IKANOOI_FI" = "Ikano Lasku FI";
 "PAYMENT_METHOD_TYPE_IKANOOI_NO" = "Ikano Faktura NO";
 "PAYMENT_METHOD_TYPE_IKANOOI_SE" = "Ikano Faktura SE";
+
+/// Accessibility
+"ACCESSIBILITY_SCAN_CARD" = "Scan a card";
+"ACCESSIBILITY_CANCEL_CHECKOUT" = "Cancel checkout";
+"ACCESSIBILITY_PAY_WITH_STORED_PAYMENT_METHOD" = "Pay with stored payment method";
+"ACCESSIBILITY_PAY_WITH" = "Pay with";
+
+/// Card Scanning
+"ALERT_TITLE_CARD_SCANNING_FAILED" = "Card Scanning Failed";
+"LABEL_CARD_SCAN_HOLD_HERE" = "Hold card here.\n It will scan automatically";
+"BUTTON_TITLE_OK" = "OK";

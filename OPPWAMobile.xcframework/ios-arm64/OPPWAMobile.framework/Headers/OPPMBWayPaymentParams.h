@@ -22,20 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// :nodoc:
 - (nullable instancetype)initWithCheckoutID:(NSString *)checkoutID
-                      paymentBrand:(nullable NSString *)paymentBrand
-                             error:(NSError * _Nullable __autoreleasing *)error NS_UNAVAILABLE;
-
-/**
- Creates an object representing an MB WAY transaction.
-
- @param checkoutID The checkout ID of the transaction. Must be not `nil` or empty.
- @param email Email of the account.
- @param error The error that occurred while validating payment parameters. See code attribute (`OPPErrorCode`) and `NSLocalizedDescription` to identify the reason of failure.
- @return Returns an object representing an MB WAY transaction.
- */
-+ (nullable instancetype)mbWayPaymentParamsWithCheckoutID:(NSString *)checkoutID
-                                                    email:(NSString *)email
-                                                    error:(NSError **)error;
+                               paymentBrand:(nullable NSString *)paymentBrand
+                                      error:(NSError * _Nullable __autoreleasing *)error NS_UNAVAILABLE;
 
 /**
  Creates an object representing an MB WAY transaction.
@@ -52,9 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
                                                     error:(NSError * _Nullable __autoreleasing *)error;
 
 /// @name Properties
-
-/** Email of the account. */
-@property (nonatomic, copy, readonly) NSString *email;
 
 /** Country code of the mobile phone number. */
 @property (nonatomic, copy, readonly) NSString *countryCode;
